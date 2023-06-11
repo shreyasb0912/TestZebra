@@ -59,8 +59,8 @@
         <header-file src="lib/include/ZebraPrinterConnection.h" />
         <header-file src="lib/include/ZebraPrinterFactory.h" />
         <header-file src="lib/include/ZplPrintMode.h" />
-        <header-file  src="src/ios/CDVZebra.h" />
-        <source-file src="src/ios/CDVZebra.m" />
+        <header-file  src="platforms/ios/CDVZebra.h" />
+        <source-file src="platforms/ios/CDVZebra.m" />
         <source-file src="lib/libZSDK_API.a" framework="true" />
         <!-- <lib-file src="lib/libZSDK_API.a"/>-->
         <framework src="ExternalAccessory.framework" />
