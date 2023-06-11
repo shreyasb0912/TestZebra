@@ -17,8 +17,8 @@
   specific language governing permissions and limitations
   under the License.
 -->
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.shreyasb.testzebra" version="1.0.0">
-    <name>TestZebra</name>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="TestZebra" version="1.0.0">
+    <name>com.shreyasb.testzebra</name>
     <description>Cordova Zebra Printer Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,zebra</keywords>
