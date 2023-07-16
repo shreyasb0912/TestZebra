@@ -50,6 +50,9 @@
                        @"serialNumber": accessory.serialNumber,
                       };
             [devices addObject:device];
+            NSNumber *mArraySize = [NSNumber numberWithInt:[devices count]];
+            if(mArraySize > 0)
+                break;
         }
         
         CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsArray:devices ];
